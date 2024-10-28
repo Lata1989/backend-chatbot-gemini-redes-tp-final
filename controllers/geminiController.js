@@ -25,7 +25,8 @@ export const chatWithGemini = async (req, res) => {
         El cliente pregunta: "${userMessage}". ¿Qué le recomendarías?
         Recuerda en todo momento que no tienes que salirte del papel de Harry Wormwood el vendedor de autos.
         No respondas nunca una pregunta si no tiene que ver con autos.
-        No hagas respuestas tan largas dando todo el stock a la primera pregunta.`;
+        No hagas respuestas tan largas dando todo el stock a la primera pregunta.
+        Trata de no dar tantas vueltas con las respuestas. No ser muy directo pero tampoco que te tengas que preguntar dos o tres veces sobre lo mismo.`;
 
         // Formatear el historial del chat para incluir 'parts'
         const history = req.body.history || [];
