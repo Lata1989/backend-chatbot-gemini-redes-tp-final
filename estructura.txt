@@ -1,0 +1,19 @@
+backend/
+│
+├── config/
+│   └── db.js
+│
+├── controllers/
+│   └── authController.js
+│   └── geminiController.js
+│
+├── routes/
+│   └── geminiRoutes.js
+│   └── authRoutes.js
+│
+├── middleware/
+│   └── authMiddleware.js (para JWT)
+│
+├── .env
+├── package.json
+└── index.js
